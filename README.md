@@ -1,7 +1,7 @@
 Reversi
 =======
 
-A TOM-project by Bas, Bob, Joep, Kyra, Max.
+A TOM-project by Pacmega, Joep359 & Vogeltak.
 
 <h2>Languages used:</h2>
 
