@@ -45,9 +45,13 @@
 	================================================== -->
 	<div class="container">
 		
-		<div class="sixteen columns add-top header">
+		<div class="sixteen columns half-top header">
 			<h1>Reversi</h1>
 			<h2><a href="../">&crarr; back to introduction</a></h2>
+		</div>
+
+		<div class="two columns offset-by-seven add-top button" id="start">
+			<h4>start</h4>
 		</div>
 
 		<div id="board" class="eight columns offset-by-four add-top add-bottom">
@@ -117,7 +121,26 @@
 			<div class="tile 63"></div>
 		</div>
 
+		<div class="four columns add-top" id="settings">
+			<h3 class="add-bottom">settings</h3>
+			<h5 class="half-bottom">Place</h5>
+			<div class="colorpicker human"></div>
+			<div class="colorpicker computer"></div>
+			<div class="two columns offset-by-one add-top button reset">
+				<h4>reset</h4>
+			</div>
+		</div>
+
 	</div><!-- container -->
+
+	<!-- Scripts
+	================================================== -->
+	<script type="text/javascript" src="../scripts/Game.js"></script>
+	<script type="text/javascript" src="../scripts/Tile.js"></script>
+	<script type="text/javascript" src="../scripts/Board.js"></script>
+	<script type="text/javascript" src="../scripts/Player.js"></script>
+	<script type="text/javascript" src="../scripts/HumanPlayer.js"></script>
+	<script type="text/javascript" src="../scripts/ComputerPlayer.js"></script>
 
 <!-- End Document
 ================================================== -->
